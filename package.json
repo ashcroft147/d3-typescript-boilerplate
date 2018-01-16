@@ -1,0 +1,31 @@
+{
+  "name": "d3-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "This project is for the boiler-plate project of d3 with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashcroft147/d3-typescript-boilerplate.git"
+  },
+  "author": "Kim JeongHyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashcroft147/d3-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ashcroft147/d3-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/d3": "^4.12.0",
+    "ts-loader": "^3.2.0",
+    "webpack-dev-server": "^2.11.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "d3": "^4.12.2"
+  }
+}
