@@ -116,7 +116,7 @@ devServer: {
 npm script 명령어를 추가한다. 
 
 ~~~
-"start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+"start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --open chrome"
 ~~~
 
 위의 설정이 완료된 후 npm run start 명령어를 입력하면, webpack-dev-server가 실행된다. 
